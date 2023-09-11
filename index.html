@@ -25,6 +25,9 @@
           width: 650px; 
           height: 520px;
         }
+        form {
+            text-align: center;
+        }
         </style>
 </head>
 <body>
@@ -42,6 +45,17 @@
     </section>
     <section>
         <h1>CONTACT</h1>
+        <form>
+            <p>Full Name:</p>
+            <input type="text" id="name" required>
+            <p>Email Address:</p>
+            <input type="email" name="emailaddress" id="email" required>
+            <p><label for="text">Message</label></p>
+            <textarea name="message" id="text" cols="30" rows="10" required></textarea>
+            <br>
+            <br>
+            <button>Submit</button>
+        </form>
     </section>
 </body>
 </html>
